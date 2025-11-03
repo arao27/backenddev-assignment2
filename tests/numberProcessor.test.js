@@ -16,5 +16,5 @@ test('find min number', () => {
 });
 
 test('calculate average', () => {
-    expect(averageNumber(numbersFile)).toBe(86.566666666666); // Adjust based on sample-numbers.txt
+    expect(averageNumber(numbersFile)).toBeCloseTo(86.566666666666); // Adjust based on sample-numbers.txt
 });
